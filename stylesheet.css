@@ -1,0 +1,110 @@
+body
+{
+	background-color: #fff6f1;
+	font-family: "Helvetica",Arial;
+}
+
+#contenido/* Para centrar el contenido principa, el div */
+{
+	width: 960px;
+	margin: 0 auto;/* Para centrar perfectamente */
+	text-align: center; /* Todo el texto se va a alinear al centro */
+
+}
+
+h1/*color del titulo */
+{
+	color: #487EE2;
+	font-family: 'Russo One', sans-serif;
+
+}
+header hgroup h1
+{
+	border-bottom: solid;
+	padding-bottom:10px;
+	border-width: 1px;
+	border-color:#1d1d1d;
+	text-shadow:0px 0px 30px rgba(0,0,0,0.5);
+}
+nav ul li 
+{
+	display: inline-block;
+	margin-right: 20px;
+	color: #1d1d1d;
+	cursor: pointer;
+	padding: 5px;
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-op-transition:all 0.5s linear;
+}
+
+nav ul li:hover
+{
+	background-color: #1d1d1d;
+	color:#487EE2;
+	border-radius: 5px;
+
+}
+
+nav ul li a
+{
+	text-decoration: none;
+}
+#textoPr
+{
+	width: 620px;
+	height: 310px;
+	background-color: #1d1d1d;
+	color: #FFF;
+	margin: 0 auto;
+	text-align: left;/*Alinear el texto al lado izquierdo */
+	border-radius: 20px;
+	padding: 20px; /*Para acomodar el texto que se vio alterado con los bordes redondeados*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /*SOmbra en la parte principal */
+}
+
+a /*modificar el estilo de  los links */
+{
+	color: #487EE2;
+	font-weight: bold;
+}
+
+#miCanvas
+{
+	position: absolute;/*no va a depender de la parte donde termine el contenido principa */
+	bottom: 0px;
+	left: 0px;
+	
+}
+
+meter
+{
+	background-color: #FFF;
+	color:#487EE2;
+	margin-left: 14px;
+	width: 100px;
+}
+
+label
+{
+	display: block;
+
+}
+
+#btnSubmit
+{
+	border: none;
+	background-color: #FFF;
+	color:#487EE2;
+	padding: 4px;
+	margin:20px;
+	cursor: pointer; 
+	font-family: 'Russo One', sans-serif;
+}
+
+#escribe
+{
+	width: 270px;
+	height: 100px
+}

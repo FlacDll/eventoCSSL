@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet'>
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src='scriptprincipal.js'></script>
+</head>
+<body>
+	<div id='contenido'>
+		<header>
+			<hgroup>
+				<h1>eventoCSSL</h1>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href='index.html'>Inicio</a></li>
+					<li><a href='informacion.html'>Informacion</a></li>
+					<li><a href='contacto.html'>Contacto </a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<section>
+			<div id="textoPr">
+				<hgroup> 
+					<h1>Contáctanos:</h1>
+				</hgroup>
+
+				<form>
+					<label for='nombre'>Nombre: </label>
+					<input type='text' id='nombre' placeholder='Escribe tu nommbre' required>
+					<label for='email'>Email: </label>
+					<input type='email' id='email' placeholder='Escribe tu email' required>
+					<label for='edad'>Edad: </label>
+					<input type='number' id='edad' min='0' max='120'>
+					<label for ='escribe'>Escribe tu mensaje: </label>
+					<input type= 'text' id='escribe'>
+					<input type='submit' value='Enviar' id='btnSubmit'>
+
+				</form>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<canvas id="miCanvas">
+			
+		</canvas>
+	</footer>
+</body>
+</html>
